@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #16a085;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bmi-calculator{
+    width: 700px;
+    height:auto;
+    background-color: #bdc3c7;
+    display: flex;
+    padding: 40px;
+    border-radius: 10px;
+}
+.pic img{
+    width: 300px;
+    height: 350px;
+    margin-top: 10px;
+    background-position: center;
+}
+.text{
+    flex:1;
+    text-align: left;
+}
+.text h1{
+    color: #e74c3c;
+    font-weight: 600;
+}
+label{
+    display: block;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    color: #34495e;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+button{
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    outline: none;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.result{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 2px solid #e74c3c;
+}
+.result p{
+    color: #34495e;
+    font-weight: 500;
+}
+.result p:first-child{
+    color:#e74c3c;
+}
